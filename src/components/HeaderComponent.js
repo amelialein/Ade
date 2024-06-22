@@ -1,23 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header (){
     return(
         <header className="App-header">
-        <img src="../resources/logo.png" className="App-logo" alt="logo" />
+        <Link to='/home'><img src="../resources/logo.png" className="App-logo" alt="logo" /></Link>
 
         {/* navigaton bar */}
             <nav className="navlist" style={{display:"inline-block",width:"550px",alignSelf:"flex-end"}}>
                 <ul style={{display: "inline-flex"}}>
                     <li style={{listStyle:"none",display:"inline",padding:"0 20px"}}>
-                      <a className="navButtonFix">Fixture</a></li>
+                    <Link to='/fixtures'><a className="navButtonFix">Fixture</a></Link></li>
                     <li style={{listStyle:"none",display:"inline",padding: "0 20px"}}>
-                      <a className="navButtonStats">Stats</a></li>
+                    <Link to='/stats'><a className="navButtonStats">Stats</a></Link></li>
                     <li style={{listStyle:"none",display:"inline",padding: "0 20px"}}>
-                      <a className="navButtonInt">Interviews</a></li>
+                    <Link to='/interviews'><a className="navButtonInt">Interviews</a></Link></li>
                     <li style={{listStyle:"none",display:"inline",padding: "0 20px"}}>
-                      <a className="navButtonJoin">Join us</a></li>
+                    <Link to='/join'><a className="navButtonJoin">Join us</a></Link></li>
                     <li style={{listStyle:"none",display:"inline",padding: "0 20px"}}>
-                      <a className="navButtonContact">Contact</a></li>
+                    <Link to='/contact'><a className="navButtonContact">Contact</a></Link></li>
                 </ul>
             </nav>
         

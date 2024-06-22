@@ -1,4 +1,5 @@
 import React from 'react'
+import playerplaceholder from '../resources/playerplaceholder.png'
 
 function Stats (){
     return(
@@ -7,7 +8,7 @@ function Stats (){
                 <h2>Our Players</h2>
                 <div class="player">
                     <h3>Player One</h3>
-                    <img src="" alt="player 1 placeholder"/>
+                    <img src={playerplaceholder} alt="player 1 placeholder"/>
                     <table>
                         <tr>
                             <th>Position</th>
@@ -37,7 +38,7 @@ function Stats (){
                 </div>
                 <div class="player">
                     <h3>Player Two</h3>
-                    <img src="" alt="player 2 placeholder"/>
+                    <img src={playerplaceholder} alt="player 2 placeholder"/>
                     <table>
                         <tr>
                             <th>Position</th>
@@ -67,7 +68,7 @@ function Stats (){
                 </div>
                 <div class="player">
                     <h3>Player Three</h3>
-                    <img src="" alt="player 3 placeholder"/>
+                    <img src={playerplaceholder} alt="player 3 placeholder"/>
                     <table>
                         <tr>
                             <th>Position</th>
@@ -97,7 +98,7 @@ function Stats (){
                 </div>
                 <div class="player">
                     <h3>Player Four</h3>
-                    <img src="" alt="player 4 placeholder"/>
+                    <img src={playerplaceholder} alt="player 4 placeholder"/>
                     <table>
                         <tr>
                             <th>Position</th>
@@ -127,7 +128,7 @@ function Stats (){
                 </div>
                 <div class="player">
                     <h3>Player Five</h3>
-                    <img src="" alt="player 5 placeholder"/>
+                    <img src={playerplaceholder} alt="player 5 placeholder"/>
                     <table>
                         <tr>
                             <th>Position</th>

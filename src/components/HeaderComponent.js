@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../resources/logo.png'
 
 function Header (){
     return(
         <header className="App-header">
-        <Link to='/home'><img src="../resources/logo.png" className="App-logo" alt="logo" /></Link>
+        <Link to='/home'><img src={logo} className="App-logo" alt="logo" /></Link>
 
         {/* navigaton bar */}
             <nav className="navlist" style={{display:"inline-block",width:"550px",alignSelf:"flex-end"}}>

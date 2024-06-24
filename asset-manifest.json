@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/AdelaideTheatreSportsClubHub/static/css/main.89944e68.css",
+    "main.js": "/AdelaideTheatreSportsClubHub/static/js/main.3e1dbdbb.js",
+    "static/js/453.171ddc7f.chunk.js": "/AdelaideTheatreSportsClubHub/static/js/453.171ddc7f.chunk.js",
+    "static/media/logo.png": "/AdelaideTheatreSportsClubHub/static/media/logo.509d7efbc59a5d950451.png",
+    "static/media/blue.jpeg": "/AdelaideTheatreSportsClubHub/static/media/blue.448fe6959c78599ebddd.jpeg",
+    "static/media/green.jpeg": "/AdelaideTheatreSportsClubHub/static/media/green.d99c241cd2b3e43a23cc.jpeg",
+    "static/media/orange.jpeg": "/AdelaideTheatreSportsClubHub/static/media/orange.48cfd760e6daf97c2582.jpeg",
+    "index.html": "/AdelaideTheatreSportsClubHub/index.html",
+    "main.89944e68.css.map": "/AdelaideTheatreSportsClubHub/static/css/main.89944e68.css.map",
+    "main.3e1dbdbb.js.map": "/AdelaideTheatreSportsClubHub/static/js/main.3e1dbdbb.js.map",
+    "453.171ddc7f.chunk.js.map": "/AdelaideTheatreSportsClubHub/static/js/453.171ddc7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89944e68.css",
+    "static/js/main.3e1dbdbb.js"
+  ]
+}
